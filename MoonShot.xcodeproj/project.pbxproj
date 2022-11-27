@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F43A01C2933EAE700A22A4C /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A01B2933EAE700A22A4C /* Color-Theme.swift */; };
 		2F9B1EC329275A88002CE088 /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B1EC229275A87002CE088 /* astronauts.json */; };
 		2F9B1EC529275A93002CE088 /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B1EC429275A93002CE088 /* missions.json */; };
 		2F9B1EC729275C96002CE088 /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B1EC629275C96002CE088 /* Astronaut.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F43A01B2933EAE700A22A4C /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		2F9B1EC229275A87002CE088 /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		2F9B1EC429275A93002CE088 /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		2F9B1EC629275C96002CE088 /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 			children = (
 				2FF5ECCE290DAC15001D8209 /* MoonShotApp.swift */,
 				2FF5ECD0290DAC15001D8209 /* ContentView.swift */,
+				2F43A01B2933EAE700A22A4C /* Color-Theme.swift */,
 				2F9B1EC629275C96002CE088 /* Astronaut.swift */,
 				2F9B1ECA2927BDDC002CE088 /* mission .swift */,
 				2F9B1EC829275F4F002CE088 /* Bundle-Decoadable.swift */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F9B1EC729275C96002CE088 /* Astronaut.swift in Sources */,
+				2F43A01C2933EAE700A22A4C /* Color-Theme.swift in Sources */,
 				2F9B1EC929275F4F002CE088 /* Bundle-Decoadable.swift in Sources */,
 				2F9B1ECB2927BDDC002CE088 /* mission .swift in Sources */,
 				2FF5ECD1290DAC15001D8209 /* ContentView.swift in Sources */,
