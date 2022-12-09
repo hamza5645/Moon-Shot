@@ -41,12 +41,12 @@ struct ContentView: View {
                                 }
                                 .padding(.vertical)
                                 .frame(maxWidth: .infinity)
-                                .background(.lightBackground)
+                                .background(CustomColor.mySecondtColor)
                             }
                             .clipShape(RoundedRectangle(cornerRadius: 10))
                             .overlay (
                             RoundedRectangle(cornerRadius: 10)
-                                .stroke(.lightBackground)
+                                .stroke(CustomColor.mySecondtColor)
                             )
                         }
                     }
@@ -54,7 +54,7 @@ struct ContentView: View {
                 .padding([.horizontal, .bottom])
             }
             .navigationTitle("MoonShot")
-            .background(.darkBackground)
+            .background(CustomColor.myFirstColor)
             .preferredColorScheme(.dark)
         }
     }

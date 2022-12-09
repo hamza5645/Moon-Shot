@@ -21,7 +21,7 @@ struct AstronautView: View {
                     .padding()
             }
         }
-        .background(.darkBackground)
+        .background(CustomColor.myFirstColor)
         .navigationTitle(astronaut.name)
         .navigationBarTitleDisplayMode(.inline)
     }

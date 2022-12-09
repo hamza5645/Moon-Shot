@@ -30,7 +30,7 @@ struct MissionView: View {
                     VStack(alignment: .leading) {
                         Rectangle()
                             .frame(height: 2)
-                            .foregroundColor(.lightBackground)
+                            .foregroundColor(CustomColor.mySecondtColor)
 //                            .padding(.vertical)
                         
                         Text("Mission Highlights")
@@ -42,7 +42,7 @@ struct MissionView: View {
                         
                         Rectangle()
                             .frame(height: 1)
-                            .foregroundColor(.lightBackground)
+                            .foregroundColor(CustomColor.mySecondtColor)
 //                            .padding(.vertical)
                         
                         Text("Crew")
@@ -89,7 +89,7 @@ struct MissionView: View {
         }
         .navigationTitle(mission.displayName)
         .navigationBarTitleDisplayMode(.inline)
-        .background(.darkBackground)
+        .background(CustomColor.myFirstColor)
     }
     
     init(mission: Mission, astronauts: [String: Astronaut]) {
