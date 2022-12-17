@@ -27,11 +27,14 @@ struct MissionView: View {
                         .frame(maxWidth: geometry.size.width * 0.55)
                         .padding(.top)
                     
+                    Text(mission.formattedLaunchDate )
+                        .font(.body)
+                        .foregroundColor(.white.opacity(0.5))
+                    
                     VStack(alignment: .leading) {
                         Rectangle()
                             .frame(height: 2)
                             .foregroundColor(CustomColor.mySecondtColor)
-//                            .padding(.vertical)
                         
                         Text("Mission Highlights")
                             .font(.largeTitle.bold())
@@ -43,7 +46,6 @@ struct MissionView: View {
                         Rectangle()
                             .frame(height: 1)
                             .foregroundColor(CustomColor.mySecondtColor)
-//                            .padding(.vertical)
                         
                         Text("Crew")
                             .font(.largeTitle.bold())
