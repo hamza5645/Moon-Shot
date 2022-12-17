@@ -55,36 +55,36 @@ struct MissionView: View {
                     }
                     .padding(.horizontal)
                     
-                    ScrollView(.horizontal, showsIndicators: false) {
-                        HStack {
-                            ForEach(crew, id: \.role) { CrewMember in
-                                NavigationLink{
-                                    AstronautView(astronaut: CrewMember.astronaut)
-                                } label: {
-                                    HStack {
-                                        Image(CrewMember.astronaut.id)
-                                            .resizable()
-                                            .frame(width: 104, height: 72)
-                                            .clipShape(Circle())
-                                            .overlay(
-                                                Circle()
-                                                    .strokeBorder(.white, lineWidth: 1)
-                                            )
-                                        
-                                        VStack(alignment: .leading) {
-                                            Text(CrewMember.astronaut.name)
-                                                .foregroundColor(.white)
-                                                .font(.headline)
-                                            
-                                            Text(CrewMember.role)
-                                                .foregroundColor(.secondary)
-                                        }
-                                    }
-                                    .padding(.horizontal)
-                                }
-                            }
-                        }
-                    }
+//                    ScrollView(.horizontal, showsIndicators: false) {
+//                        HStack {
+//                            ForEach(crew, id: \.role) { CrewMember in
+//                                NavigationLink{
+//                                    AstronautView(astronaut: CrewMember.astronaut)
+//                                } label: {
+//                                    HStack {
+//                                        Image(CrewMember.astronaut.id)
+//                                            .resizable()
+//                                            .frame(width: 104, height: 72)
+//                                            .clipShape(Circle())
+//                                            .overlay(
+//                                                Circle()
+//                                                    .strokeBorder(.white, lineWidth: 1)
+//                                            )
+//
+//                                        VStack(alignment: .leading) {
+//                                            Text(CrewMember.astronaut.name)
+//                                                .foregroundColor(.white)
+//                                                .font(.headline)
+//
+//                                            Text(CrewMember.role)
+//                                                .foregroundColor(.secondary)
+//                                        }
+//                                    }
+//                                    .padding(.horizontal)
+//                                }
+//                            }
+//                        }
+//                    }
                 }
                 .padding(.bottom)
             }

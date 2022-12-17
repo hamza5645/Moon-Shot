@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F051A7C294DA1F80033D85A /* crewMembers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F051A7B294DA1F80033D85A /* crewMembers.swift */; };
 		2F126B9529420A6600B89517 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F126B9429420A6600B89517 /* MissionView.swift */; };
 		2F43A01C2933EAE700A22A4C /* Color-Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F43A01B2933EAE700A22A4C /* Color-Theme.swift */; };
 		2F87EE58294398D90068C8E3 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F87EE57294398D90068C8E3 /* AstronautView.swift */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2F051A7B294DA1F80033D85A /* crewMembers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = crewMembers.swift; sourceTree = "<group>"; };
 		2F126B9429420A6600B89517 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
 		2F43A01B2933EAE700A22A4C /* Color-Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color-Theme.swift"; sourceTree = "<group>"; };
 		2F87EE57294398D90068C8E3 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				2FF5ECCE290DAC15001D8209 /* MoonShotApp.swift */,
 				2FF5ECD0290DAC15001D8209 /* ContentView.swift */,
 				2F126B9429420A6600B89517 /* MissionView.swift */,
+				2F051A7B294DA1F80033D85A /* crewMembers.swift */,
 				2F87EE57294398D90068C8E3 /* AstronautView.swift */,
 				2F43A01B2933EAE700A22A4C /* Color-Theme.swift */,
 				2F9B1EC629275C96002CE088 /* Astronaut.swift */,
@@ -163,6 +166,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F051A7C294DA1F80033D85A /* crewMembers.swift in Sources */,
 				2F126B9529420A6600B89517 /* MissionView.swift in Sources */,
 				2F9B1EC729275C96002CE088 /* Astronaut.swift in Sources */,
 				2F87EE58294398D90068C8E3 /* AstronautView.swift in Sources */,
